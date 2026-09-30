@@ -17,7 +17,7 @@ Sama seperti `P1 - Pengenalan MK dan Setup Environment - Hands-on/`, ini adalah 
 1. Buka folder **"P3 - Compose Multiplatform Basics - Hands-on"** ini di Android Studio (`File > Open`) sebagai proyek terpisah, lalu tunggu Gradle sync selesai.
 2. Pilih salah satu run configuration:
    - **Android** — pilih configuration `composeApp`, pilih emulator/device, klik ▶️ (atau `./gradlew :composeApp:installDebug`).
-   - **Desktop** — jalankan `./gradlew :composeApp:run` dari terminal (paling cepat untuk coba-coba tanpa emulator).
+   - **Desktop** — jalankan `./gradlew :composeApp:run` dari terminal.
    - **iOS** *(khusus Mac + Xcode)* — proyek ini **tidak menyertakan** folder `iosApp/` (proyek Xcode), sama seperti P1. Buat proyek baru lewat [kmp.jetbrains.com](https://kmp.jetbrains.com), lalu salin isi `composeApp/src/` dari folder ini.
 3. Di `App.kt`, gunakan menu untuk berpindah antara Latihan 1-3 dan Solusi 1-3 (menu berbasis state sederhana, bukan Navigation Component — itu materi Pertemuan 5).
 4. Buka file di `composeApp/src/commonMain/kotlin/.../latihan/`, lengkapi bagian `TODO`, lalu jalankan ulang untuk melihat hasilnya.
@@ -59,3 +59,9 @@ Ada **Tugas Praktikum Minggu 3** (bobot 4%, deadline sebelum Pertemuan 4): buat 
 - [Compose Multiplatform Layout Documentation](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-layout-basics.html)
 - [Jetpack Compose - Lists and Grids](https://developer.android.com/develop/ui/compose/lists)
 - [Jetpack Compose - Modifiers](https://developer.android.com/develop/ui/compose/modifiers)
+
+---
+
+## Screenshot My Profile App
+
+![My Profile App](my-profile-desktop.png)
